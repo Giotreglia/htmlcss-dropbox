@@ -103,6 +103,7 @@ header {
 
 .debug .container {
     justify-content: space-between;
+    flex-wrap: wrap;
 } 
 
 .debug .column {
@@ -119,6 +120,8 @@ header {
 .debug .cln_title {
     height: 10%;
 }
+
+
 
 
 
