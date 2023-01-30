@@ -10,6 +10,7 @@ body {
 
 .flex {
     display: flex;
+    flex-wrap: wrap;
 }
 
 header {
@@ -77,6 +78,23 @@ header {
     width: calc(100% / 3);
 }
 
+.cln_3_sponsor, .cln_3_sponsor_center {
+    width: calc(100vw / 3);
+}
+
+.sponsor {
+    width: calc(100vw / 6 - 3px);
+    height: calc(100vw / 6);
+}
+
+.cln_3_sponsor_center {
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 20px;
+}
+
+
+
 /* Debug */
 
 .border {
@@ -119,6 +137,24 @@ header {
 
 .debug .cln_title {
     height: 10%;
+}
+
+.debug .sponsor {
+    background-color: green;
+}
+
+.debug .blue {
+    background-color: blue;
+}
+
+.debug .sponsor_container {
+    flex-wrap: nowrap;
+}
+
+.debug .column_sponsor {
+    background-color: red;
+    margin: 30px 0px;
+    color: white;
 }
 
 
