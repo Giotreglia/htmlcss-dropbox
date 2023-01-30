@@ -52,15 +52,54 @@ header {
     font-size: 0.8rem;
 }
 
+.jumbotron {
+    background-color: olive;
+}
+
+.container_big {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.cln_30 {
+    width: 30%;
+}
+
+.cln_70 {
+    width: 70%;
+}
+
 /* Debug */
 
-.debug header {
-    background-color: grey;
+.border {
     border: solid 2px black;
 }
 
-.debug .menu {
-    height: 100%;
+.debug header {
+    background-color: grey;
+}
+
+.container_big {
+    background-color: darkblue;
+    margin-top: 30px;
+}
+
+.debug .jumbotron {
+    height: 400px;
+}
+
+.debug .container_big {
+    height: 350px;
+    color: white;
+}
+
+.debug .container {
+    justify-content: space-between;
+} 
+
+.debug .column {
+    background-color: red;
+    height: 300px;
 }
 
 
