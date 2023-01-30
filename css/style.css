@@ -3,3 +3,66 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+header {
+    height: 80px;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_small {
+    display: inline-block;
+    height: 20px;
+}
+
+.menu {
+    list-style: none;
+    font-size: 0.8rem;
+}
+
+.menu_sx a {
+    margin-right: 30px;
+}
+
+.menu_dx a {
+    margin-left: 30px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: blue;
+    padding: 0px 10px;
+    margin: 0px 0px 0px 30px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+/* Debug */
+
+.debug header {
+    background-color: grey;
+    border: solid 2px black;
+}
+
+.debug .menu {
+    height: 100%;
+}
+
+
+
+
