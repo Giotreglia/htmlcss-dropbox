@@ -31,6 +31,7 @@ header {
     width: 100vw;
     background-color: white;
     align-items: center;
+    border-bottom: solid 1px lightgrey;
 }
 
 .logo_small {
@@ -112,8 +113,51 @@ header {
 
 .container_small {
     max-width: 1000px;
-    margin: 50px auto;
+    margin: 120px auto;
     justify-content: space-between;
+}
+
+.container_small h3 {
+    font-size: 40px;
+}
+
+.select {
+    margin: 40px 0px 20px;
+}
+
+.select_span {
+    margin-right: 50px;
+    font-size: 1.2rem;
+}
+
+.circle {
+    margin-right: 10px;
+}
+
+.circle_blu {
+    color:  rgb(0, 97, 255);
+    margin-right: 10px;
+    font-weight: 1000;
+}
+
+.cln_title {
+    text-align: center;
+    padding: 10px;
+    border: solid 1px lightgrey;
+}
+
+.cln_content {
+    padding: 30px 20px;
+    border: solid 1px lightgrey;
+    height: 500px;
+}
+
+.cln_content h4 {
+    font-size: 25px;
+}
+
+.cln_title i {
+    margin-right: 10px;
 }
 
 .cln_2small {
@@ -184,17 +228,7 @@ footer .container_big_footer {
 
 
 .debug .column {
-    background-color: red;
-    height: 250px;
     margin: 30px 0px;
-}
-
-.debug .cln_content {
-    height: 90%;
-}
-
-.debug .cln_title {
-    height: 10%;
 }
 
 .debug .sponsor {
