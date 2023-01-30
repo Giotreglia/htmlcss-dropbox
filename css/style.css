@@ -8,15 +8,28 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+main {
+    padding: 70px 0px;
+}
+
+.container {
+    justify-content: space-between;
+    flex-wrap: wrap;
+} 
+
 .flex {
     display: flex;
     flex-wrap: wrap;
 }
 
 header {
-    height: 80px;
-    padding: 20px;
+    height: 70px;
+    padding: 20px 30px;
     justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    background-color: white;
     align-items: center;
 }
 
@@ -30,6 +43,10 @@ header {
     font-size: 0.8rem;
 }
 
+.menu_dx, .menu_sx {
+    align-items: center;
+}
+
 .menu_sx a {
     margin-right: 30px;
 }
@@ -39,12 +56,13 @@ header {
 }
 
 .menu a {
-    color: white;
     text-decoration: none;
+    color: black;
 }
 
 .btn {
-    padding: 0px 10px;
+    display: inline-block;
+    padding: 5px 15px;
     margin: 0px 0px 0px 30px;
     text-align: center;
     color: white;
@@ -52,13 +70,44 @@ header {
     font-size: 0.8rem;
 }
 
+.blue {
+    background-color: rgb(0, 97, 255);
+}
+
 .jumbotron {
-    background-color: olive;
+    background-color: rgb(180, 208, 231);
+}
+
+.jumbotron .container {
+    height: 410px;
+}
+
+.jumbotron_container {
+    padding: 40px 0px 0px;
+}
+
+.jumbotron h1 {
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.jumbotron .btn {
+    margin: 20px 0px;
+}
+
+.jumbotron i {
+    margin: 80px 0px 10px;
+    font-size: 50px;
+    color: black;
+}
+
+.jumbo_img {
+    width: 100%;
 }
 
 .container_big, .container_big_footer {
     max-width: 1170px;
-    margin: 50px auto;
+    margin: auto;
 }
 
 .container_small {
@@ -133,33 +182,11 @@ footer .container_big_footer {
     border: solid 2px black;
 }
 
-.debug header {
-    background-color: grey;
-}
-
-.container_big {
-    background-color: darkblue;
-    margin-top: 30px;
-}
-
-.debug .jumbotron {
-    height: 400px;
-}
-
-.debug .container_big {
-    color: white;
-}
-
-.debug .container {
-    justify-content: space-between;
-    flex-wrap: wrap;
-} 
 
 .debug .column {
     background-color: red;
     height: 250px;
     margin: 30px 0px;
-    color: white;
 }
 
 .debug .cln_content {
@@ -172,10 +199,6 @@ footer .container_big_footer {
 
 .debug .sponsor {
     background-color: green;
-}
-
-.debug .blue {
-    background-color: blue;
 }
 
 .debug .sponsor_container {
