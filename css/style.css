@@ -157,8 +157,14 @@ header {
 }
 
 .debug .cln_singola_sponsor {
+    width: 100vw;
     margin-top: 0;
     background-color: aquamarine;
+}
+
+.debug .faq {
+    height: 300px;
+    background-color: red;
 }
 
 
