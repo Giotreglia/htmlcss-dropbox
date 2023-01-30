@@ -43,7 +43,6 @@ header {
 }
 
 .btn {
-    background-color: blue;
     padding: 0px 10px;
     margin: 0px 0px 0px 30px;
     text-align: center;
@@ -58,15 +57,24 @@ header {
 
 .container_big {
     max-width: 1170px;
-    margin: auto;
+    margin: 50px auto;
 }
 
-.cln_30 {
+.container_small {
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+.cln_2small {
     width: 30%;
 }
 
-.cln_70 {
+.cln_2big {
     width: 70%;
+}
+
+.cln_3 {
+    width: calc(100% / 3);
 }
 
 /* Debug */
@@ -99,8 +107,20 @@ header {
 
 .debug .column {
     background-color: red;
-    height: 300px;
+    height: 250px;
+    margin: 30px 0px;
+    color: white;
 }
+
+.debug .cln_content {
+    height: 90%;
+}
+
+.debug .cln_title {
+    height: 10%;
+}
+
+
 
 
 
