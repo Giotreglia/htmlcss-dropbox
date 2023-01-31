@@ -366,6 +366,10 @@ h3 {
     width: 50%;
 }
 
+.faq i {
+    margin-left: 250px;
+}
+
 /* Footer */
 
 footer {
@@ -403,24 +407,12 @@ footer .container_big_footer {
 
 /* Debug */
 
-.border {
-    border: solid 2px black;
-}
-
 .debug .cln_singola_sponsor {
     width: 100vw;
     margin-top: 0;
     background-color: aquamarine;
 }
 
-.debug .faq {
-    height: 300px;
-    background-color: red;
-}
-
-.debug .list_container {
-    background-color: pink;
-}
 
 
 
