@@ -32,6 +32,10 @@ main {
     margin-top: 40px;
 }
 
+.margintop80 {
+    margin-top: 80px;
+}
+
 .marginleft10 {
     margin-left: 10px;
 }
@@ -116,6 +120,10 @@ main {
 
 .cln_30 {
     width: 30%;
+}
+
+.cln_70 {
+    width: 70%;
 }
 
 .cln_3_sponsor, .cln_3_sponsor_center {
@@ -298,11 +306,6 @@ footer .container_big_footer {
 
 .border {
     border: solid 2px black;
-}
-
-
-.debug .column {
-    margin: 30px 0px;
 }
 
 .debug .sponsor {
