@@ -40,6 +40,10 @@ main {
     margin-left: 10px;
 }
 
+.marginbottom40 {
+    margin-bottom: 40px;
+}
+
 .font09 {
     font-size: 0.9rem;
 }
@@ -62,6 +66,10 @@ main {
 
 .grey {
     color:grey;
+}
+
+.border_grey {
+    border: solid 1px lightgrey;
 }
 
 .bold {
@@ -244,12 +252,15 @@ header {
 .cln_title {
     text-align: center;
     padding: 10px;
-    border: solid 1px lightgrey;
 }
 
 .cln_content {
     padding: 30px 25px;
-    border: solid 1px lightgrey;
+    height: 100%;
+}
+
+.cln_content_padd0 {
+    padding: 0px 25px;
     height: 100%;
 }
 
