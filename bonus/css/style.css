@@ -255,28 +255,27 @@ header {
 .menu {
     list-style: none;
     font-size: 0.8rem;
+    justify-content: space-between;
+    width: 300px;
 }
 
 .menu li {
-    height: 100%;
+    line-height: 100%;
 }
 
 .menu_dx, .menu_sx {
     align-items: center;
     height: 100%;
-}
-
-.menu_sx a {
-    margin-right: 30px;
-}
-
-.menu_dx a {
-    margin-left: 30px;
+    justify-content: space-between;
+    width: 30%;
 }
 
 .menu a {
     text-decoration: none;
     color: black;
+    height: 100%;
+    display: block;
+    line-height: 69px;
 }
 
 /* Jumbotron */
@@ -347,10 +346,6 @@ header {
     height: 50%;
 }
 
-.sponsor:hover {
-    border: solid 20px rgba(255, 255, 255, 0.6);
-}
-
 .sponsor img {
     width: 50%;
     filter: invert(1);
@@ -406,6 +401,16 @@ footer .container_big_footer {
 .hr_big {
     color: lightgrey;
     width: 100px;
+}
+
+/* Hover e bonus */
+
+.sponsor:hover {
+    border: solid 20px rgba(255, 255, 255, 0.6);
+}
+
+.menu li:hover {
+    border-bottom: solid 3px rgb(0, 97, 255);
 }
 
 
