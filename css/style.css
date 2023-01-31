@@ -29,6 +29,10 @@ main {
     align-items: center;
 }
 
+.text_center {
+    text-align: center;
+}
+
 .margintop20 {
     margin-top: 20px;
 }
@@ -106,8 +110,16 @@ main {
     color: white;
 }
 
+.prugna {
+    color: rgb(97, 8, 43);
+}
+
 .bg_blue {
     background-color: rgb(0, 97, 255);
+}
+
+.bg_white {
+    background-color: white;
 }
 
 .blue {
@@ -117,6 +129,11 @@ main {
 .padding20 {
     padding: 20px;
 } 
+
+.padding50 {
+    padding: 50px;
+}
+
 .container_big, .container_big_footer {
     max-width: 1170px;
     margin: auto;
@@ -150,6 +167,10 @@ main {
     width: 40%;
 }
 
+.cln_50 {
+    width: 50%;
+}
+
 .cln_60 {
     width: 60%;
 }
@@ -175,6 +196,7 @@ header {
     background-color: white;
     align-items: center;
     border-bottom: solid 1px lightgrey;
+    z-index: 1;
 }
 
 .logo_small {
