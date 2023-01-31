@@ -63,15 +63,28 @@ main {
 .btn {
     display: inline-block;
     padding: 5px 15px;
-    margin: 0px 0px 0px 30px;
     text-align: center;
     color: white;
     text-decoration: none;
     font-size: 0.8rem;
 }
 
-.blue {
+.btn_big {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+    width: 100%;
+}
+
+.bg_blue {
     background-color: rgb(0, 97, 255);
+}
+
+.blue {
+    color: rgb(0, 97, 255);
 }
 
 .container_big, .container_big_footer {
@@ -185,7 +198,7 @@ header {
 
 /* Main */
 
-.container_small h3 {
+.container_small h2 {
     font-size: 40px;
 }
 
@@ -216,10 +229,13 @@ header {
 .cln_content {
     padding: 30px 25px;
     border: solid 1px lightgrey;
-    height: 500px;
 }
 
-.cln_content h4 {
+.checkbefore::before {
+    content: "";
+}
+
+.cln_content h3 {
     font-size: 25px;
 }
 
@@ -267,8 +283,8 @@ footer .container_big_footer {
 }
 
 .hr_small {
-    color: grey;
-    width: 100px;
+    color: lightgrey;
+    width: 50px;
 }
 
 
