@@ -41,11 +41,15 @@ main {
 }
 
 .paddingleft25 {
-    padding-left: 25px;
+    padding-left: 24px;
 }
 
 .no-decor {
     list-style: none;
+}
+
+.hidden {
+    opacity: 0;
 }
 
 .block {
@@ -229,6 +233,7 @@ header {
 .cln_content {
     padding: 30px 25px;
     border: solid 1px lightgrey;
+    height: 100%;
 }
 
 .checkbefore::before {
