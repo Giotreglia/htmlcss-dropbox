@@ -291,18 +291,47 @@ h3 {
 .bg_1 {
     background-color: rgb(162, 211, 155);
 }
+
+.bg_2 {
+    background-color: rgb(97, 8, 43);
+}
+
+.bg_3 {
+    background-color: rgb(00, 147, 206);
+}
+
+.bg_4 {
+    background-color: rgb(255, 28, 28);
+}
+
+.bg_5 {
+    background-color: rgb(213, 0, 31);
+}
+
+.bg_7 {
+    background-color: rgb(13, 36, 129);
+}
+
+.bg_6 {
+    background-color: rgb(180, 208, 231);
+}
+
+.bg_8 {
+    background-color: rgb(255, 216, 48);
+}
 .sponsor {
     width: 50%;
     height: 50%;
 }
 
-svg {
-    fill: white;
+.sponsor img {
+    width: 50%;
+    filter: invert(1);
 }
 
-.sponsor_img {
+.sponsor svg {
+    fill: white;
     width: 50%;
-    stroke: white;
 }
 
 .cln_3_sponsor_center {
@@ -350,11 +379,6 @@ footer .container_big_footer {
 
 .border {
     border: solid 2px black;
-}
-
-.debug .column_sponsor {
-    background-color: red;
-    color: white;
 }
 
 .debug .cln_singola_sponsor {
