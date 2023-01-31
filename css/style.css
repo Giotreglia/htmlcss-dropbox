@@ -342,6 +342,10 @@ header {
     height: 50%;
 }
 
+.sponsor:hover {
+    border: solid 20px rgba(255, 255, 255, 0.6);
+}
+
 .sponsor img {
     width: 50%;
     filter: invert(1);
