@@ -192,6 +192,46 @@ main {
     height: calc(100vw / 3);
 }
 
+h3 {
+    font-size: 25px;
+}
+
+.container_small h2 {
+    font-size: 40px;
+}
+
+.bg_1 {
+    background-color: rgb(162, 211, 155);
+}
+
+.bg_2 {
+    background-color: rgb(97, 8, 43);
+}
+
+.bg_3 {
+    background-color: rgb(00, 147, 206);
+}
+
+.bg_4 {
+    background-color: rgb(255, 28, 28);
+}
+
+.bg_5 {
+    background-color: rgb(213, 0, 31);
+}
+
+.bg_7 {
+    background-color: rgb(13, 36, 129);
+}
+
+.bg_6 {
+    background-color: rgb(180, 208, 231);
+}
+
+.bg_8 {
+    background-color: rgb(255, 216, 48);
+}
+
 /* Header */
 
 header {
@@ -234,9 +274,6 @@ header {
     color: black;
 }
 
-
-
-
 /* Jumbotron */
 
 .jumbotron {
@@ -272,10 +309,6 @@ header {
 
 /* Main */
 
-.container_small h2 {
-    font-size: 40px;
-}
-
 .select {
     margin: 40px 0px 20px;
 }
@@ -289,16 +322,6 @@ header {
     margin-right: 5px;
 }
 
-.circle {
-    margin-right: 10px;
-}
-
-.circle_blu {
-    color:  rgb(0, 97, 255);
-    margin-right: 10px;
-    font-weight: 1000;
-}
-
 .cln_title {
     text-align: center;
     padding: 10px;
@@ -310,45 +333,10 @@ header {
     color: grey;
 }
 
-h3 {
-    font-size: 25px;
-}
-
 .cln_title i {
     margin-right: 10px;
 }
 
-.bg_1 {
-    background-color: rgb(162, 211, 155);
-}
-
-.bg_2 {
-    background-color: rgb(97, 8, 43);
-}
-
-.bg_3 {
-    background-color: rgb(00, 147, 206);
-}
-
-.bg_4 {
-    background-color: rgb(255, 28, 28);
-}
-
-.bg_5 {
-    background-color: rgb(213, 0, 31);
-}
-
-.bg_7 {
-    background-color: rgb(13, 36, 129);
-}
-
-.bg_6 {
-    background-color: rgb(180, 208, 231);
-}
-
-.bg_8 {
-    background-color: rgb(255, 216, 48);
-}
 .sponsor {
     width: 50%;
     height: 50%;
@@ -357,11 +345,6 @@ h3 {
 .sponsor img {
     width: 50%;
     filter: invert(1);
-}
-
-.sponsor svg {
-    fill: white;
-    width: 50%;
 }
 
 .cln_3_sponsor_center {
@@ -416,15 +399,6 @@ footer .container_big_footer {
     width: 100px;
 }
 
-
-
-/* Debug */
-
-.debug .cln_singola_sponsor {
-    width: 100vw;
-    margin-top: 0;
-    background-color: aquamarine;
-}
 
 
 
