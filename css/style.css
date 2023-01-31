@@ -33,6 +33,10 @@ main {
     text-align: center;
 }
 
+.margintop10 {
+    margin-top: 10px;
+}
+
 .margintop20 {
     margin-top: 20px;
 }
@@ -55,6 +59,10 @@ main {
 
 .font09 {
     font-size: 0.9rem;
+}
+
+.font07 {
+    font-size: 0.7rem;
 }
 
 .paddingleft25 {
@@ -376,7 +384,7 @@ footer {
     background-color: black;
     color: white;
     justify-content: space-between;
-    border-bottom: solid 1px white;
+    border-bottom: solid 3px white;
     padding: 40px 0px;
 }
 
@@ -401,6 +409,11 @@ footer .container_big_footer {
 .hr_small {
     color: lightgrey;
     width: 50px;
+}
+
+.hr_big {
+    color: lightgrey;
+    width: 100px;
 }
 
 
