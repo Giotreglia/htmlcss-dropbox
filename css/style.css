@@ -337,7 +337,11 @@ h3 {
 .cln_3_sponsor_center {
     overflow-y: auto;
     overflow-x: hidden;
-    padding: 20px;
+    padding: 30px;
+}
+
+.cln_3_sponsor_center img {
+    width: 50%;
 }
 
 /* Footer */
