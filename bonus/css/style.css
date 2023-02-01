@@ -77,10 +77,6 @@ main {
     list-style: none;
 }
 
-.hidden {
-    opacity: 0;
-}
-
 .block {
     display: block;
 }
@@ -160,6 +156,9 @@ main {
 .cln_content {
     padding: 30px 25px;
     height: 100%;
+    border-bottom: solid 1px lightgrey;
+    border-left: solid 1px lightgrey;
+    border-right: solid 1px lightgrey;
 }
 
 .cln_content_padd0 {
@@ -248,7 +247,7 @@ header {
     background-color: white;
     align-items: center;
     border-bottom: solid 1px lightgrey;
-    z-index: 1;
+    z-index: 9999;
 }
 
 .logo_small {
@@ -288,12 +287,9 @@ header {
     background-color: rgb(180, 208, 231);
 }
 
-.jumbotron .container {
-    height: 380px;
-}
-
 .jumbotron_container {
-    padding: 40px 0px 0px;
+    position: relative;
+    top: 80px;
 }
 
 .jumbotron h1 {
