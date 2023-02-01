@@ -29,6 +29,10 @@ main {
     align-items: center;
 }
 
+.hidden {
+    display: none;
+}
+
 .text_center {
     text-align: center;
 }
@@ -55,6 +59,10 @@ main {
 
 .marginleft20 {
     margin-left: 20px;
+}
+
+.marginleft200 {
+    margin-left: 200px;
 }
 
 .marginbottom40 {
@@ -107,6 +115,11 @@ main {
     text-align: center;
     text-decoration: none;
     font-size: 0.8rem;
+    color: black;
+}
+
+a {
+    color: black;
 }
 
 .w100 {
@@ -369,10 +382,6 @@ header {
     width: 50%;
 }
 
-.faq i {
-    margin-left: 250px;
-}
-
 /* Footer */
 
 footer {
@@ -433,6 +442,39 @@ footer .container_big_footer {
     background-color: rgba(128, 128, 128, 0.5);
     color: white;
 }
+
+.faq1:hover + .hidden {
+    display: block;
+}
+
+.faq2:hover + .hidden {
+    display: block;
+}
+
+.faq3:hover + .hidden {
+    display: block;
+}
+
+.chevron_down  {
+    display: inline-block;
+    width: 20px;
+}
+
+.faq1:hover + .chevron_down {
+    transform: rotate(180deg);
+}
+
+.square100x100 {
+    width: 100px;
+    height: 100px;
+    border: solid 1px black;
+}
+
+#navlink1:hover + .square100x100 {
+    display: block;
+}
+
+
 
 
 
