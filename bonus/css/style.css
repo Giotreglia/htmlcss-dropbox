@@ -429,6 +429,11 @@ footer .container_big_footer {
     background-color: rgba(0, 97, 255, 0.5);
 }
 
+#btn_grey:hover, .btn_big.bg_white:hover {
+    background-color: rgba(128, 128, 128, 0.5);
+    color: white;
+}
+
 
 
 
