@@ -443,16 +443,12 @@ footer .container_big_footer {
     color: white;
 }
 
-.faq1:hover + .hidden {
+.faq:hover + .hidden {
     display: block;
 }
 
-.faq2:hover + .hidden {
-    display: block;
-}
-
-.faq3:hover + .hidden {
-    display: block;
+.faq {
+    display: inline-block;
 }
 
 .chevron_down  {
@@ -460,19 +456,12 @@ footer .container_big_footer {
     width: 20px;
 }
 
-.faq1:hover + .chevron_down {
+.faq:hover > .chevron_down {
     transform: rotate(180deg);
+    transform-origin: center;
 }
 
-.square100x100 {
-    width: 100px;
-    height: 100px;
-    border: solid 1px black;
-}
 
-#navlink1:hover + .square100x100 {
-    display: block;
-}
 
 
 
