@@ -154,8 +154,11 @@ main {
 }
 
 .cln_content {
-    padding: 30px 25px;
+    padding: 30px 35px;
     height: 100%;
+}
+
+.border_grey_notop {
     border-bottom: solid 1px lightgrey;
     border-left: solid 1px lightgrey;
     border-right: solid 1px lightgrey;
@@ -324,6 +327,11 @@ header {
 
 .select_span svg {
     margin-right: 5px;
+}
+
+.text-indent li {
+    text-indent: -12px;
+    padding-left: 16px;
 }
 
 .cln_title {
