@@ -425,6 +425,10 @@ footer .container_big_footer {
     border-bottom: solid 3px rgba(255, 255, 255, 0.0);
 }
 
+.btn.bg_blue:hover, .btn_big.bg_blue:hover {
+    background-color: rgba(0, 97, 255, 0.5);
+}
+
 
 
 
